@@ -6,7 +6,7 @@ export default function App() {
       <View>
         <Text>Another text...</Text>
       </View>
-      <Text>Hello from React Native!</Text>
+      <Text style={styles.text}>Hello from React Native!</Text>
       <Button title='Click Here!'/>
     </View>
   );
@@ -18,5 +18,11 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  text: {
+    margin: 16,
+    padding: 16,
+    borderWidth: 2,
+    borderColor: 'blue',
   },
 });
