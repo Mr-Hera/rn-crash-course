@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "rn-crash-course",
-    "slug": "rn-crash-course",
+    "name": "Eat Out",
+    "slug": "eat-out",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "backgroundColor": "#1e085a",
+    "backgroundColor": "#fff",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",

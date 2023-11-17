@@ -29,9 +29,9 @@ export default function App() {
 
   return (
     <>
-      <StatusBar style='light' />
+      <StatusBar style='dark' />
       <View style={styles.appContainer}>
-        <Button title='Add new goal' color='#a065ec' onPress={startAddGoalHandler} />
+        <Button title='eat-out checkout' color='#000' onPress={startAddGoalHandler} />
         <GoalInput onAddGoal={addGoalHandler} visible={modalIsVisible} onCancel={startAddGoalHandler}/>
         <View style={styles.goalsContainer}>
           <FlatList 
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: 50,
     paddingHorizontal: 16,
-    backgroundColor: '#1e085a',
+    // backgroundColor: '#1e085a',
   },
   goalsContainer: {
     flex: 5,
